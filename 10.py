@@ -8,12 +8,15 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('AusAntidiabeticDrug.csv')
 
-df['ds'] = pd.to_datetime(df['ds'])
+date = df['ds']
+sales = df['y']
 
-sns.set(style="whitegrid", color_codes=True)
+date = pd.to_datetime(df['ds'])
+
+# sns.set(style="whitegrid", color_codes=True)
 
 # plt.figure(figsize=(16, 6))
-plt.plot(df['ds'], df['y'])
+plt.plot(date, sales)
 plt.xlabel("Time")
 plt.ylabel("$ Millions")
 plt.title("Antidiabetic Drug Sales Over Time")
