@@ -11,7 +11,7 @@ df = pd.read_csv('AusAntidiabeticDrug.csv')
 date = df['ds']
 sales = df['y']
 
-date = pd.to_datetime(df['ds'])
+date = pd.to_datetime(date)
 
 # sns.set(style="whitegrid", color_codes=True)
 
