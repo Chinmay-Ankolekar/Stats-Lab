@@ -1,0 +1,19 @@
+1) Extract a dataset of your choice and compute the correlation between any two variables
+and visualize the relationship using scatter plot using JMP Pro tool.
+
+The tools used are JMP Pro
+The correlation is a measure on the linear association between two variables
+The correlation between two variables;
+
+The steps required to perform scatter plot in JMP pro are:
+1) Open JMP Pro data table, select Analyze, fit Y by X.
+2) Click on a continuous variable from select columns and click Y response( continuous
+variables have blue triangles)
+3) Click on a second continuous variable and click X, and click OK to generate a scatter plot.
+4) To display the correlation, click on the red triangle and select the density eclipse> 0.55
+
+Correlation between multiple pair of variables
+1) Select analyze , and click on multivariate methods and atlast click on multivariate
+2) Click on two or more continuous variables from select columns with density ellipse and
+table of correlation
+3) Click OK to produce a scatter plot matrix with density ellipse and table of correlations
