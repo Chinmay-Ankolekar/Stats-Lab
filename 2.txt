@@ -1,0 +1,9 @@
+2) Apply Pearson correlation to test on a dataset .Show the normality on variables using QQ Plot and interpret the results using JMP Pro
+Steps to produce a normal Quantile plot
+
+1) Select help> sample.data folder and open big class JMP
+2) Select analyse> Fit Y by X
+3) Select height and click Y, Response
+4) Select another other attributes eg> age from the attributes and display the Q-Q plot
+5) We get the histogram and now click on the lower triangle and click on normal quantile
+plot
