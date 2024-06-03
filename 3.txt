@@ -1,0 +1,27 @@
+3) Select any dataset from JMP Pro tool and perform ANOVA test and Non- Parametric
+tests (The Mann Whitney test and The Kruskal-Wallis test).
+
+One- way annova
+Steps:
+1) Select analyze> fit y by x
+2) Click on a continuous variable from select columns and click y response
+3) Click on a categorical variable and click x vector(variable have red or green bars)
+4) Click ok
+5) Click on red triangle
+6) The null hypotheses is here and between the population means
+7) Prob> F is p-value for whole model test since prob> F is less than 0.05, reject hypothesis
+on equal means
+
+ Two-way annova
+1) Select analyze> fir model
+2) Click on a continuous variable from select columns and click y, response
+3) Click on two categorical variables from select columns and click macros, categorical(red or
+green)
+4) Alternative hypothesis doesn’t have an affect
+
+ Kruskals test
+1) Select analyse> fit y by x
+2) Continuous variable and categorical variable
+3) Click ok, JMP will display the dropbox
+4) Click on triangle go to the non-parametric test
+5) Select x variable has 3 variables then we perform kruskal Wallis test
